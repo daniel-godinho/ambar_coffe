@@ -1,0 +1,21 @@
+/* Configurações do Projeto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ajuste temporário de imagens */
+img {
+  max-width: 100%;
+  height: 500px;
+  display: block;
+}
+
+body {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-16);
+  color: var(--color-text-black);
+  background-color: var(--bg-primary);
+  line-height: 1.5;
+}
