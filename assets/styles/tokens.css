@@ -6,6 +6,8 @@
   /* Text Colors */
   --color-text-black: #1e1e1e;
   --color-text-white: #ffffff;
+  --color-text-brown: #5e3e1b;
+  --color-text-green: #606c38;
   --color-text-muted: #6b6b6b;
 
   /* Links */
@@ -30,6 +32,12 @@
   --font-size-24: 24px;
   --font-size-32: 32px;
   --font-size-48: 48px;
+  --font-size-68: 68px;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
 
   /* Spacing */
   --spacing-1: 4px;
@@ -51,4 +59,15 @@
   --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.1);
   --shadow-md: 0 4px 10px rgba(0, 0, 0, 0.15);
   --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.2);
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.2s ease;
+  --transition-slow: 0.3s ease;
+
+  /* Z-Index */
+  --z-base: 1;
+  --z-header: 100;
+  --z-modal: 200;
+  --z-img-bg: 50;
 }
